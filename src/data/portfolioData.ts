@@ -91,10 +91,9 @@ export const projects: Project[] = [
     imageUrl: 'https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
     category: 'solar',
     images: [
-        'https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=1200',
-        'https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg?auto=compress&cs=tinysrgb&w=1200',
-        'https://images.pexels.com/photos/325944/pexels-photo-325944.jpeg?auto=compress&cs=tinysrgb&w=1200',
-        'https://images.pexels.com/photos/9875414/pexels-photo-9875414.jpeg?auto=compress&cs=tinysrgb&w=1200'
+        '/assets/images/P2Image1.jpeg?auto=compress&cs=tinysrgb&w=1200',
+        '/assets/images/P2Image2.jpeg?auto=compress&cs=tinysrgb&w=1200',
+        '/assets/images/P2Image3.jpeg?auto=compress&cs=tinysrgb&w=1200'
       ],
   },
   {
