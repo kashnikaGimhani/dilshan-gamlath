@@ -71,7 +71,13 @@ export const projects: Project[] = [
     description: 'Supplied, installed and commissioned 480 electric water pumping systems for papaya cultivation clusters under the Agriculture Sector Modernization Project (ASMP).',
     scope: '480 electric water pumping systems for agricultural irrigation',
     imageUrl: 'https://images.pexels.com/photos/2800832/pexels-photo-2800832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-    category: 'electric'
+    category: 'electric',
+    images: [
+        'https://images.pexels.com/photos/414837/pexels-photo-414837.jpeg?auto=compress&cs=tinysrgb&w=1200',
+        'https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg?auto=compress&cs=tinysrgb&w=1200',
+        'https://images.pexels.com/photos/8853502/pexels-photo-8853502.jpeg?auto=compress&cs=tinysrgb&w=1200',
+        'https://images.pexels.com/photos/2770933/pexels-photo-2770933.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      ],
   },
   {
     id: '2',
@@ -82,7 +88,13 @@ export const projects: Project[] = [
     description: 'Supplied, installed and commissioned 200 solar-powered water pumping systems for agricultural use under the Agriculture Sector Modernization Project (ASMP).',
     scope: '200 solar-powered water pumping systems',
     imageUrl: 'https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-    category: 'solar'
+    category: 'solar',
+    images: [
+        'https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=1200',
+        'https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg?auto=compress&cs=tinysrgb&w=1200',
+        'https://images.pexels.com/photos/325944/pexels-photo-325944.jpeg?auto=compress&cs=tinysrgb&w=1200',
+        'https://images.pexels.com/photos/9875414/pexels-photo-9875414.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      ],
   },
   {
     id: '3',
@@ -93,7 +105,13 @@ export const projects: Project[] = [
     description: 'Supplied, installed and commissioned 140 solar-powered water pumping systems for the dry chilli production program under the Agriculture Sector Modernization Project (ASMP).',
     scope: '140 solar-powered water pumping systems for dry chilli production',
     imageUrl: 'https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750',
-    category: 'solar'
+    category: 'solar',
+    images: [
+        'https://images.pexels.com/photos/414837/pexels-photo-414837.jpeg?auto=compress&cs=tinysrgb&w=1200',
+        'https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg?auto=compress&cs=tinysrgb&w=1200',
+        'https://images.pexels.com/photos/8853502/pexels-photo-8853502.jpeg?auto=compress&cs=tinysrgb&w=1200',
+        'https://images.pexels.com/photos/2770933/pexels-photo-2770933.jpeg?auto=compress&cs=tinysrgb&w=1200'
+      ],
   }
 ];
 

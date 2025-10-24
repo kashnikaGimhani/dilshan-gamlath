@@ -18,6 +18,7 @@ export interface Project {
   scope: string;
   imageUrl: string;
   category: 'solar' | 'electric' | 'hybrid';
+  images: string[];
 }
 
 export interface Skill {

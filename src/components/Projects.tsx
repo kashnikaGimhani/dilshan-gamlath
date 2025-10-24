@@ -1,5 +1,6 @@
 import { Calendar, Building2, Zap, Sun } from 'lucide-react';
 import { projects, keyResponsibilities } from '../data/portfolioData';
+import ProjectSlideshow from './ProjectSlideshow';
 
 export default function Projects() {
   return (
@@ -19,13 +20,10 @@ export default function Projects() {
               key={project.id}
               className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
             >
-              <div className="relative h-56 overflow-hidden">
-                <img
-                  src={project.imageUrl}
-                  alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
-                />
-                <div className="absolute top-4 right-4">
+              <div className="relative h-56 overflow-hidden rounded-t-xl">
+                <ProjectSlideshow images={project.images} projectName={project.title} />
+
+                <div className="absolute top-4 right-4 z-10">
                   {project.category === 'solar' ? (
                     <div className="bg-amber-500 text-white p-2 rounded-lg shadow-lg">
                       <Sun className="w-5 h-5" />
@@ -37,6 +35,7 @@ export default function Projects() {
                   )}
                 </div>
               </div>
+
 
               <div className="p-6">
                 <h3 className="text-xl font-bold text-slate-900 mb-2">{project.title}</h3>
