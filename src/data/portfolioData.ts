@@ -4,7 +4,8 @@ export const contactInfo: ContactInfo = {
   email: 'dsgamlath93@gmail.com',
   phone: '0220 801 079',
   location: 'Wellington',
-  linkedin: 'linkedin.com/in/dilshan-gamlath/'
+  linkedin: 'linkedin.com/in/dilshan-gamlath/',
+  cv: "/dilshan-gamlath/assets/cv/Dilshan-CV.pdf",
 };
 
 export const experiences: Experience[] = [

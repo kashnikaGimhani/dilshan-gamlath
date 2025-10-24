@@ -38,4 +38,5 @@ export interface ContactInfo {
   phone: string;
   location: string;
   linkedin: string;
+  cv: string;
 }

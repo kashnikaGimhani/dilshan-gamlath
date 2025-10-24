@@ -40,8 +40,8 @@ export default function Navigation() {
             onClick={() => scrollToSection('home')}
             className="flex items-center gap-2 text-white font-bold text-xl hover:text-emerald-400 transition-colors"
           >
-            <Zap className="w-6 h-6 text-emerald-500" />
-            <span>DG</span>
+            {/* <Zap className="w-6 h-6 text-emerald-500" />
+            <span>DG</span> */}
           </button>
 
           <div className="hidden md:flex items-center gap-8">

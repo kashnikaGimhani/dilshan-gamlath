@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Linkedin, Download } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Eye } from 'lucide-react';
 import { contactInfo } from '../data/portfolioData';
 
 export default function Contact() {
@@ -80,11 +80,16 @@ export default function Contact() {
           </div>
         </div>
 
-        <div className="mt-12 text-center">
-          <button className="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 text-white rounded-lg font-semibold hover:bg-emerald-600 transition-all hover:shadow-lg hover:shadow-emerald-500/50">
-            <Download className="w-5 h-5" />
-            Download CV
-          </button>
+       <div className="mt-12 text-center">
+          <a
+            href={contactInfo.cv}  // 👈 replace with your actual CV link (can be from Google Drive, GitHub, etc.)
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-emerald-500 text-white rounded-lg font-semibold hover:bg-emerald-600 transition-all hover:shadow-lg hover:shadow-emerald-500/50"
+          >
+            <Eye className="w-5 h-5" />
+            View CV
+          </a>
         </div>
       </div>
     </section>
