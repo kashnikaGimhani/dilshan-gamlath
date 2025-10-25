@@ -89,7 +89,7 @@ export const projects: Project[] = [
     subtitle: 'Northern Province, Sri Lanka',
     duration: 'September 2024 – December 2024',
     client: 'Ministry of Agriculture, Sri Lanka (European Union Funded – ASM Project)',
-    description: 'Supplied, installed and commissioned 480 electric water pumping systems for papaya cultivation clusters under the Agriculture Sector Modernization Project (ASMP).',
+    description: 'Supplied, installed and commissioned 480 electric water pumping systems for agricultural purposes under the Agriculture Sector Modernization Project (ASMP).',
     scope: '480 electric water pumping systems for agricultural irrigation',
     category: 'electric',
     images: [
@@ -190,7 +190,7 @@ export const education: Education = {
 };
 
 export const interests = [
-  'Renewable Energy Innovation',
+  'Renewable Energy Solutions',
   'Smart Agriculture Solutions',
   'Sustainable Engineering & Technology',
   'Electronic Music Production'
