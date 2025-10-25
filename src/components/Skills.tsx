@@ -28,9 +28,9 @@ export default function Skills() {
       </div>
       <div className="space-y-3">
         {skills.map((skill, index) => (
-          <div key={index} className="flex items-center gap-3">
-            <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
-            <span className="text-slate-700">{skill.name}</span>
+          <div key={index} className="flex items-start gap-3">
+            <div className="mt-[0.7rem] w-2 h-2 bg-emerald-500 rounded-full flex-shrink-0"></div>
+            <span className="text-slate-700 leading-relaxed">{skill.name}</span>
           </div>
         ))}
       </div>

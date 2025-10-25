@@ -30,8 +30,7 @@ export default function Education() {
                 <div className="mt-6 pt-6 border-t border-slate-200">
                   <p className="text-sm text-slate-600 leading-relaxed">
                     Comprehensive education in electrical power systems, control systems, power
-                    electronics, and electrical machine design, providing a strong foundation for
-                    renewable energy and water pumping system projects.
+                    electronics, and electrical machine design, providing a strong foundation for modern electrical and renewable energy projects.
                   </p>
                 </div>
               </div>

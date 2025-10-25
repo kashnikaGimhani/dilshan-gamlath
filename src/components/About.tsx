@@ -14,7 +14,7 @@ export default function About() {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/assets/images/aboutmeImage.png"
                 alt="Electrical Engineering Work"
                 className="w-full h-full object-cover"
               />
@@ -46,11 +46,15 @@ export default function About() {
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-2 h-2 bg-emerald-500 rounded-full"></span>
-                    Large-Scale Agricultural Projects
+                    Solar On-Grid and Off-Grid Power System
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-2 h-2 bg-emerald-500 rounded-full"></span>
-                    Engineering Operations Management
+                    Tendering and Procurement Process Handling
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-2 h-2 bg-emerald-500 rounded-full"></span>
+                    Engineering Operations and Large-Scale Project Management
                   </li>
                 </ul>
               </div>

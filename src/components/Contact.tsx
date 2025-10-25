@@ -9,7 +9,7 @@ export default function Contact() {
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Get in Touch</h2>
           <div className="h-1 w-24 bg-emerald-500 mx-auto mb-6"></div>
           <p className="text-slate-300 max-w-2xl mx-auto">
-            Interested in discussing renewable energy projects, engineering opportunities, or potential collaborations? Feel free to reach out.
+            Interested in renewable energy projects, engineering roles, or new employment opportunities? I’d be happy to connect. Feel free to reach out.
           </p>
         </div>
 

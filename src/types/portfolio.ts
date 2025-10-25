@@ -16,8 +16,7 @@ export interface Project {
   client: string;
   description: string;
   scope: string;
-  imageUrl: string;
-  category: 'solar' | 'electric' | 'hybrid';
+  category: 'solarw' | 'electric' | 'solar';
   images: string[];
 }
 

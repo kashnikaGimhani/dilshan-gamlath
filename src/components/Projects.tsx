@@ -1,4 +1,4 @@
-import { Calendar, Building2, Zap, Sun } from 'lucide-react';
+import { Calendar, Building2, Zap, SunMedium, Droplets} from 'lucide-react';
 import { projects, keyResponsibilities } from '../data/portfolioData';
 import ProjectSlideshow from './ProjectSlideshow';
 
@@ -26,11 +26,15 @@ export default function Projects() {
                 <div className="absolute top-4 right-4 z-10">
                   {project.category === 'solar' ? (
                     <div className="bg-amber-500 text-white p-2 rounded-lg shadow-lg">
-                      <Sun className="w-5 h-5" />
+                      <SunMedium className="w-5 h-5" /> {/* Solar On-grid */}
+                    </div>
+                  ) : project.category === 'solarw' ? (
+                    <div className="bg-emerald-500 text-white p-2 rounded-lg shadow-lg">
+                      <Droplets className="w-5 h-5" /> {/* Solar Water Pumping */}
                     </div>
                   ) : (
                     <div className="bg-blue-500 text-white p-2 rounded-lg shadow-lg">
-                      <Zap className="w-5 h-5" />
+                      <Zap className="w-5 h-5" /> {/* Electric Water Pumping */}
                     </div>
                   )}
                 </div>

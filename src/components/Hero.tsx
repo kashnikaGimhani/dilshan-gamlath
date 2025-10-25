@@ -58,7 +58,7 @@ export default function Hero() {
         <div className="flex flex-wrap justify-center gap-4">
           <button
             onClick={() => scrollToSection('projects')}
-            className="px-8 py-3 bg-emerald-500 text-white rounded-lg font-medium hover:bg-emerald-600 transition-all hover:shadow-lg hover:shadow-emerald-500/50"
+            className="px-8 py-3 bg-transparent border-2 border-emerald-500 text-emerald-400 rounded-lg font-medium hover:bg-emerald-500 hover:text-white transition-all"
           >
             View Projects
           </button>
