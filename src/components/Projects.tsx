@@ -10,7 +10,7 @@ export default function Projects() {
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">Major Projects</h2>
           <div className="h-1 w-24 bg-emerald-500 mx-auto mb-6"></div>
           <p className="text-slate-600 max-w-3xl mx-auto">
-            Led and delivered large-scale renewable energy and water pumping projects for agricultural development across Sri Lanka
+            Led and delivered domestic and large-scale renewable energy and water pumping projects across Sri Lanka
           </p>
         </div>
 
