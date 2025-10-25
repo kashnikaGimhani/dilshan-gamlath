@@ -17,9 +17,9 @@ export const experiences: Experience[] = [
     startDate: 'October 2024',
     endDate: 'August 2025',
     responsibilities: [
-      'Managed engineering operations, including project planning, compliance, and resource coordination',
-      'Supervised staff and ensured timely and safe delivery of projects',
-      'Secured major contracts and contributed to expanding renewable energy and water pumping portfolios'
+      'Managed engineering operations, including project planning, compliance, and resource coordination.',
+      'Supervised staff and ensured timely and safe delivery of projects.',
+      'Secured major contracts and contributed to expanding renewable energy and water pumping portfolios.'
     ]
   },
   {
@@ -30,9 +30,9 @@ export const experiences: Experience[] = [
     startDate: 'October 2023',
     endDate: 'October 2024',
     responsibilities: [
-      'Prepared proposals, pricing, and contract documentation',
-      'Built and maintained strong customer relationships and identified new business opportunities',
-      'Led large-scale projects from planning through completion, meeting all safety and compliance'
+      'Prepared proposals, pricing, and contract documentation.',
+      'Built and maintained strong customer relationships and identified new business opportunities.',
+      'Led large-scale projects from planning through completion, meeting all safety and compliance.'
     ]
   },
   {
@@ -199,7 +199,7 @@ export const interests = [
 export const summary = "Electrical Engineer with a strong background in design, estimation, and project management across solar and electric water pumping systems as well as solar on-grid and off-grid power systems. Skilled in preparing tender documentation, pricing, and overseeing major projects. Proven ability to deliver compliant, customer focused solutions while maintaining high standards of safety, quality, and efficiency.";
 
 export const keyResponsibilities = [
-  'Managed projects end-to-end from tendering and procurement to installation, commissioning, and delivery',
-  'Supervised and coordinated multiple site teams, ensuring safety, quality, and on-time completion',
-  'Maintained effective communication with clients, suppliers, and field staff to ensure smooth operations and high customer satisfaction'
+  'Managed projects end-to-end from tendering and procurement to installation, commissioning, and delivery.',
+  'Supervised and coordinated multiple site teams, ensuring safety, quality, and on-time completion.',
+  'Maintained effective communication with clients, suppliers, and field staff to ensure smooth operations and high customer satisfaction.'
 ];
